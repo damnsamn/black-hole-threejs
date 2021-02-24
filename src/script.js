@@ -125,7 +125,7 @@ const generateBlackHole = () => {
     scene.add(points);
 
 
-    sphereG = new THREE.SphereBufferGeometry(config.innerRadius,16,16);
+    sphereG = new THREE.SphereBufferGeometry(config.innerRadius,32,32);
     sphereM = new THREE.MeshStandardMaterial({
         color: 0x000000
     });
