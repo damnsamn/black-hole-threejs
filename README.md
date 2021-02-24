@@ -12,7 +12,8 @@ npm run dev
 # Build for production (gh-pages) in the dist/ directory
 npm run build
 
-# Commit diat folder to gh-pages branch
-git subtree push --prefix dist origin gh-pages
+# Commit dist folder to gh-pages branch
+## Commit the /dist folder's built files, then:
+git run publish
 
 ```
